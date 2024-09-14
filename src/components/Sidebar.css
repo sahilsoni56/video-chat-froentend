@@ -1,0 +1,138 @@
+/* Base styles */
+.container {
+    width: 600px;
+    margin: 35px auto;
+    padding: 0;
+  }
+  
+  .paper1 {
+    padding: 1vw 1vw;
+    border: 2px solid black;
+    box-shadow: 2px 6px 20px bisque;
+    background: transparent;
+  }
+  
+  .root {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icon {
+    font-size: 24px;
+    margin-right: 8px;
+  }
+  
+  
+  .grid-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2vw;
+  }
+  
+  .grid-item {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+ 
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+  }
+  
+  h6 {
+    margin: 0 0 10px;
+    font-size: 1.25rem;
+    color: bisque;
+  }
+  
+  .text-field {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 1vw;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Button styles */
+  .button {
+    display: flex;
+    align-items: center;
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    /* padding: 1.5vw; */
+    font-size: 1vw;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+  }
+  .copy-to-clipboard button{
+    padding: 0.3vw;
+  }
+
+  .callbutton button{
+
+    padding: 0.3vw;
+  }
+  
+  .button:hover {
+    background-color: #303f9f;
+  }
+  
+ 
+  
+  .call {
+    background-color: #3f51b5;
+  }
+  
+  .call:hover {
+    background-color: #303f9f;
+  }
+  
+  .hang-up {
+    background-color: #f44336;
+  }
+  
+  .hang-up:hover {
+    background-color: #c62828;
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 600px) {
+    .container {
+      width: 80%;
+    }
+  
+    .grid-container {
+      flex-direction: column;
+    }
+  
+    h6 {
+      font-size: 6vw;
+      color: bisque;
+    }
+  
+    .text-field {
+      font-size: 5vw;
+      margin-bottom: 1.5vw;
+    }
+  
+    .button {
+      font-size: 0.875rem;
+      padding: 2vw 1vw;
+      width: 100%;
+    }
+    
+    .copy-to-clipboard button{
+      /* background: purple; */
+      width: 100%;
+    }
+    
+    .callbutton button{
+      width: 100%;
+    }
+   
+  }
+  

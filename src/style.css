@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "ital";
+    src: url("../public/SofadiOne-Regular.ttf");
+}
+body {
+    background:
+    
+    url("../public/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    object-fit: cover;
+    font-family: ital;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

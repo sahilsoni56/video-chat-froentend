@@ -1,0 +1,42 @@
+/* Base styles */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .appBar {
+    border-radius: 15px;
+    margin: 30px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 38vw;
+    border: 2px solid bisque;
+    padding: 1vw;
+    background-color: black;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 2rem;
+    text-align: center;
+    color: bisque;
+    font-weight: 400;
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 600px) {
+    .appBar {
+      width: 90%;
+      margin: 30px auto;
+    }
+  
+    .title {
+      font-size: 1.5rem;
+    }
+  }
+  
